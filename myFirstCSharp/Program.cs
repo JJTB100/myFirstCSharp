@@ -11,11 +11,11 @@ namespace myFirstCSharp
         static void Main(string[] args)
         {
             Console.WriteLine("How many pizzas would you like to eat?");
-            int numOfPizzas = int.Parse(Console.ReadLine());
+            int numOfPizzas = int.Parse(Console.ReadLine()); //input number of pizzas
 
-            for (int i = 0; i < numOfPizzas; i++)
+            for (int i = 0; i < numOfPizzas; i++) // Loop
             {
-                Console.WriteLine("Eat Pizza Number " + (i+1));
+                Console.WriteLine("Eat Pizza Number " + (i+1)); //Display the text, with an incrementing number
             }
 
         }
